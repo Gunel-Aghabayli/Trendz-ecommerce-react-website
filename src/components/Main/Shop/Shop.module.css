@@ -1,0 +1,35 @@
+.shop{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 70px 60px;
+}
+.image1{
+    width: 550px;
+    height: 570px;
+    border-radius: 12px;
+}
+.image2{
+    width: 343px;
+    height: 343;
+    border-radius: 12px;
+}
+.images{
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+.category p{
+    font-size: 40px;
+}
+.category button{
+    padding: 12px 24px;
+    background-color: white;
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 9px;
+}
+.category button:hover{
+    color: white;
+    background-color: black;
+    transition: all .3s;
+    cursor: pointer;
+}

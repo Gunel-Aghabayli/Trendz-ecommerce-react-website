@@ -1,0 +1,42 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  height: 400px;
+  padding: 40px;
+}
+.ptag {
+  font-size: 25px;
+  font-weight: 500;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 40px;
+}
+.design {
+  margin-top: 185px;
+}
+.subs {
+  margin-top: 250px;
+}
+.foot{
+    position: relative;
+}
+.input {
+  padding: 20px 90px;
+  width: 150px;
+  border: 1px solid rgb(199, 185, 185);
+  border-radius: 9px;
+  color: white;
+  background: #1e1e1e;
+}
+.buton {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 9px;
+}

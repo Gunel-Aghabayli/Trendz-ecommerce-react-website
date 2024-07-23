@@ -1,0 +1,14 @@
+.img {
+  opacity: 0.5;
+  width: 300px;
+  height: 30px;
+  margin: 30px;
+  
+}
+.company {
+  margin-top: 80px;
+  text-align: center;
+}
+.company p {
+  font-size: 20px;
+}

@@ -1,0 +1,25 @@
+.recent {
+  margin: 80px 96px;
+  font-size: 40px;
+}
+.img {
+  width: 300px;
+  height: 300px;
+}
+.cube {
+  width: 300px;
+  height: 400px;
+  background-color: #eff0f4;
+  padding: 10px;
+  border-radius: 12px;
+}
+.shirt {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  padding: 20px 80px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
